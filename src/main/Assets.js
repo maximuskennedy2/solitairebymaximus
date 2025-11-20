@@ -1,8 +1,8 @@
 const COLORS = {
     BACKGROUND: {
-        LIGHT_GREEN: '#03ad31',
-        DARK_GREEN: '#026b1e',
-        DARKER_GREEN: '#004011',
+        LIGHT_GREEN: '#6857A8',
+        DARK_GREEN: '#5E4E96',
+        DARKER_GREEN: '#43376C',
         LIGHT_GRAY: '#cccccc',
         BLACK: '#000000',
     },
