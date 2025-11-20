@@ -4,7 +4,7 @@ const COLORS = {
         DARK_GREEN: '#5E4E96',
         DARKER_GREEN: '#43376C',
         LIGHT_GRAY: '#cccccc',
-        BLACK: '#000000',
+        BLACK: '#FFFFFF',
     },
     CARD: {
         BLACK: 'black',
