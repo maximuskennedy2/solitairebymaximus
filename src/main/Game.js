@@ -81,12 +81,12 @@ Game.prototype.mainLoop = function () {
 Game.prototype.render = function (scene) {
     if (scene == SCENES.LOADING) {
         Canvas.fill(COLORS.BACKGROUND.DARK_GREEN);
-        Canvas.drawText("Loading", new Vector2(Canvas.width / 2, Canvas.height / 2), Canvas.width / 15, COLORS.BACKGROUND.LIGHT_GRAY, TEXT_ALIGN.VERTICAL.CENTER, TEXT_ALIGN.HORIZONTAL.BOTTOM);
+        Canvas.drawText("Loading!", new Vector2(Canvas.width / 2, Canvas.height / 2), Canvas.width / 15, COLORS.BACKGROUND.LIGHT_GRAY, TEXT_ALIGN.VERTICAL.CENTER, TEXT_ALIGN.HORIZONTAL.BOTTOM);
         Canvas.drawRect(new Vector2(Canvas.width / 3, Canvas.height * 0.55), Canvas.width / 3, Canvas.height / 15, COLORS.BACKGROUND.BLACK);
         Canvas.drawRect(new Vector2(Canvas.width / 3, Canvas.height * 0.55), (loading / maxLoading) * Canvas.width / 3, Canvas.height / 15, COLORS.BACKGROUND.LIGHT_GREEN);
     } else if (scene == SCENES.MENU) {
         Canvas.fill(COLORS.BACKGROUND.DARK_GREEN);
-        Canvas.drawText("Solitaire", new Vector2(Canvas.width / 2, Canvas.height / 4), Canvas.width / 8, COLORS.BACKGROUND.LIGHT_GRAY);
+        Canvas.drawText("Solitaire by Maximus", new Vector2(Canvas.width / 2, Canvas.height / 4), Canvas.width / 8, COLORS.BACKGROUND.LIGHT_GRAY);
         var totalButtonWidth = 0;
         var pixelSize = Canvas.width / 15;
         Solitaire.menuButtons.forEach(element => totalButtonWidth += Canvas.textWidth(element, pixelSize));
