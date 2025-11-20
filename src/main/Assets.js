@@ -3,8 +3,8 @@ const COLORS = {
         LIGHT_GREEN: '#6857A8',
         DARK_GREEN: '#5E4E96',
         DARKER_GREEN: '#43376C',
-        LIGHT_GRAY: '#cccccc',
-        BLACK: '#FFFFFF',
+        LIGHT_GRAY: '#FFFFFF',
+        BLACK: '#000000',
     },
     CARD: {
         BLACK: 'black',
